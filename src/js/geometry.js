@@ -19,7 +19,7 @@ function calculateSquare(squareSide) {
 const triangleSideA = 6;
 const triangleSideB = 6;
 const triangleBase = 4;
-const triangleHeight = 5.5;
+// const triangleHeight = 5.5;
 
 
 function calculateTriangle(triangleSideA, triangleSideB, triangleBase, triangleHeight) {
@@ -30,6 +30,16 @@ function calculateTriangle(triangleSideA, triangleSideB, triangleBase, triangleH
 	}
 
 }
+
+function calculateTriangleHeight(side, base) {
+
+	if (side == base) {
+		console.log('No es un triangulo isosceles.');
+	} else {
+		return Math.sqrt((side ** 2) - ((base ** 2) / 4));
+	}
+}
+
 
 // CIRCLE
 const circleRadio = 3;
