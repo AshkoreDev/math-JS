@@ -20,8 +20,6 @@ function calculateDiscount() {
 	const newPrice = Number(price.value);
 	const newDiscount = Number(discount.value);
 
-	const totalPrice = (newPrice * (100 - newDiscount)) / 100;
-
 	if (!newPrice || !newDiscount) {
 
 		resultDiscount.innerText = `Debes ingresar los datos requeridos.`;
@@ -32,9 +30,9 @@ function calculateDiscount() {
 
 	} else {
 
+		const totalPrice = (newPrice * (100 - newDiscount)) / 100;
 		resultDiscount.innerText = `El precio con un descuento de ${newDiscount}% es de $${totalPrice}.`;
 	}
-
 }
 
 function calculateCoupon() {
@@ -54,13 +52,12 @@ function calculateCoupon() {
 			if (newCoupon == item.coupon) {
 				
 				discountCoupon = item.discount;
-				console.log(discountCoupon);
 			}
 		});
 
 		if (discountCoupon == 0) {
 
-			resultCoupon.innerText = `El cupón no existe.`;
+			resultCoupon.innerText = `El cupón no es valido.`;
 
 		} else {
 
