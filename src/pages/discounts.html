@@ -7,15 +7,32 @@
 </head>
 <body>
 
-	<label for="price">Precio</label>
-	<input type="number" id="price" name="price">
+	<div class="discounts">
+		<label for="price">Precio</label>
+		<input type="number" id="price" name="price">
 
-	<label for="discount">Descuento</label>
-	<input type="number" id="discount" name="discount">
+		<label for="discount">Descuento</label>
+		<input type="number" id="discount" name="discount">
 
-	<button id="calculateBtn">Calcular</button>
+		<button id="calculateDiscountBtn">Calcular Descuentos</button>
 
-	<p id="result"></p>
+		<p id="resultDiscount"></p>
+	</div>
+
+	<hr>
+
+	<div class="coupons">
+		<label for="priceCoupon">Precio</label>
+		<input type="number" id="priceCoupon" name="priceCoupon">
+
+		<label for="coupon">Cupón</label>
+		<input type="text" id="coupon" name="coupon">
+
+		<button id="calculateCouponBtn">Calcular Cupón</button>
+
+		<p id="resultCoupon"></p>
+	</div>
+	
 
 	<script src="./../js/discounts.js"></script>
 </body>
