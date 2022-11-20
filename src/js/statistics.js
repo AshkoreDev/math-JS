@@ -9,5 +9,21 @@ function calculateAverage(list) {
 	return `El promedio es ${average}.`;
 }
 
+
 // MEDIAN
+function isPar(list) {
+
+	return !(list.length % 2);
+}
+
+function isImpar(list) {
+
+	return list.length % 2;
+}
+
+function calculateMedian() {
+	
+}
+
 // MODE
+
