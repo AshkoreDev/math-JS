@@ -11,18 +11,31 @@ function calculateAverage(list) {
 
 
 // MEDIAN
-function isPar(list) {
+
+let listTwo = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]; 
+
+function isEven(list) {
 
 	return !(list.length % 2);
 }
 
-function isImpar(list) {
+function isOdd(list) {
 
 	return list.length % 2;
 }
 
-function calculateMedian() {
-	
+function calculateMedian(list) {
+
+	// calculateAverage(list);
+	const listIsEven = isEven(list);
+
+	if (listIsEven) {
+		
+
+	} else {
+		const indexOddMedian = Math.floor(list.length / 2) + 1;
+		console.log(list[indexOddMedian];
+	}
 }
 
 // MODE
