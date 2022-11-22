@@ -44,6 +44,7 @@ function calculateMedian(list) {
 }
 
 // MODE
+const listThree = [1,1,2,6,4,3,5,2,1,4,1,8,5];
 
 function calculateMode(list) {
 
