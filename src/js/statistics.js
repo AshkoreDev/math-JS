@@ -22,7 +22,7 @@ function isEven(list) {
 function calculateMedian(list) {
 
 	const listIsEven = isEven(list);
-	
+
 	orderedList = list.sort((a,b) => a - b);
 	console.log(orderedList);
 
@@ -45,3 +45,11 @@ function calculateMedian(list) {
 
 // MODE
 
+function calculateMode(list) {
+
+	const listCount = {};
+
+  list.forEach(item => listCount[item] = (listCount[item] ?? 0) + 1);
+
+  return listCount;
+}
