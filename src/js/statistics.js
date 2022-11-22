@@ -51,5 +51,9 @@ function calculateMode(list) {
 
   list.forEach(item => listCount[item] = (listCount[item] ?? 0) + 1);
 
-  return listCount;
+  const objectArray = Object.entries(listCount);
+
+  const orderedObjectArray = objectArray.sort((a, b) => b[1] - a[1]);
+
+  return orderedObjectArray;
 }
