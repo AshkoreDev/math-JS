@@ -22,11 +22,14 @@ function isEven(list) {
 function calculateMedian(list) {
 
 	const listIsEven = isEven(list);
+	
+	orderedList = list.sort((a,b) => a - b);
+	console.log(orderedList);
 
 	if (listIsEven) {
 		
-		const indexMediumOne = list[(list.length / 2) - 1];
-		const indexMediumTwo = list[list.length / 2];
+		const indexMediumOne = orderedList[(orderedList.length / 2) - 1];
+		const indexMediumTwo = orderedList[orderedList.length / 2];
 
 		const listMedium = [indexMediumOne, indexMediumTwo];
 		const averageMedium = calculateAverage(listMedium);
@@ -34,8 +37,8 @@ function calculateMedian(list) {
 
 	} else {
 
-		const indexOddMedian = Math.floor(list.length / 2);
-		const oddMedian = list[indexOddMedian];
+		const indexOddMedian = Math.floor(orderedList.length / 2);
+		const oddMedian = orderedList[indexOddMedian];
 		return oddMedian;
 	}
 }
