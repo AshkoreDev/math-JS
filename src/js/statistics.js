@@ -53,6 +53,7 @@ function calculateMode(list) {
 
   const objectArray = Object.entries(listCount);
 
+  // Lista bi-dimensional
   const orderedObjectArray = objectArray.sort((a, b) => b[1] - a[1]);
 
   return orderedObjectArray;
