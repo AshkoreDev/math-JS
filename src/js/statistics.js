@@ -43,10 +43,10 @@ function calculateMedian(list) {
 	}
 }
 
-// MODE
+// MODA
 const listThree = [1,1,2,6,4,3,5,2,1,4,1,8,5];
 
-function calculateMode(list) {
+function calculateModa(list) {
 
 	const listCount = {};
 
@@ -56,6 +56,9 @@ function calculateMode(list) {
 
   // Lista bi-dimensional
   const orderedObjectArray = objectArray.sort((a, b) => b[1] - a[1]);
+  const orderedListMaxNumber = orderedObjectArray[0];
+  const moda = orderedListMaxNumber[0];
 
-  return orderedObjectArray;
+  console.log(orderedListMaxNumber);
+  console.log(`La moda es: ${moda}`);
 }
