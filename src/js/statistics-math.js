@@ -18,7 +18,7 @@ math.isEven = function isEven(list) {
 
 math.calculateMedian = function calculateMedian(list) {
 
-	const listIsEven = isEven(list);
+	const listIsEven = math.isEven(list);
 
 	orderedList = list.sort((a,b) => a - b);
 	console.log(orderedList);
@@ -29,7 +29,7 @@ math.calculateMedian = function calculateMedian(list) {
 		const indexMediumTwo = orderedList[orderedList.length / 2];
 
 		const listMedium = [indexMediumOne, indexMediumTwo];
-		const averageMedium = calculateAverage(listMedium);
+		const averageMedium = math.calculateAverage(listMedium);
 		return averageMedium;
 
 	} else {

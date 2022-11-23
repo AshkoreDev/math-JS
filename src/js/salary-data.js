@@ -2,220 +2,220 @@ const wages = [];
 
 wages.push({
   name: 'Juanita',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 250, },
-    { year: 2019, empresa: 'Freelance', salario: 250, },
-    { year: 2020, empresa: 'Industrias Mokepon', salario: 850, },
-    { year: 2021, empresa: 'Industrias Mokepon', salario: 1050, },
-    { year: 2022, empresa: 'Industrias Mokepon', salario: 1250, },
-    { year: 2023, empresa: 'Industrias Mokepon', salario: 1250, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 250, },
+    { year: 2019, company: 'Freelance', salary: 250, },
+    { year: 2020, company: 'Industrias Mokepon', salary: 850, },
+    { year: 2021, company: 'Industrias Mokepon', salary: 1050, },
+    { year: 2022, company: 'Industrias Mokepon', salary: 1250, },
+    { year: 2023, company: 'Industrias Mokepon', salary: 1250, },
     
-    // { year: 2024, salario: 1250, },
+    // { year: 2024, salary: 1250, },
   ],
 });
 wages.push({
   name: 'Alex',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 450, },
-    { year: 2019, empresa: 'Freelance', salario: 550, },
-    { year: 2020, empresa: 'Freelance', salario: 400, },
-    { year: 2021, empresa: 'Industrias Mokepon', salario: 1050, },
-    { year: 2022, empresa: 'Industrias Mokepon', salario: 1250, },
-    { year: 2023, empresa: 'Industrias Mokepon', salario: 1250, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 450, },
+    { year: 2019, company: 'Freelance', salary: 550, },
+    { year: 2020, company: 'Freelance', salary: 400, },
+    { year: 2021, company: 'Industrias Mokepon', salary: 1050, },
+    { year: 2022, company: 'Industrias Mokepon', salary: 1250, },
+    { year: 2023, company: 'Industrias Mokepon', salary: 1250, },
   ],
 });
 wages.push({
   name: 'Nath',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 600, },
-    { year: 2019, empresa: 'Freelance', salario: 625, },
-    { year: 2020, empresa: 'Freelance', salario: 575, },
-    { year: 2021, empresa: 'MarketerosCOL', salario: 1000, },
-    { year: 2022, empresa: 'MarketerosCOL', salario: 1000, },
-    { year: 2023, empresa: 'MarketerosCOL', salario: 1100, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 600, },
+    { year: 2019, company: 'Freelance', salary: 625, },
+    { year: 2020, company: 'Freelance', salary: 575, },
+    { year: 2021, company: 'MarketerosCOL', salary: 1000, },
+    { year: 2022, company: 'MarketerosCOL', salary: 1000, },
+    { year: 2023, company: 'MarketerosCOL', salary: 1100, },
   ],
 });
 wages.push({
   name: 'Julia',
-  trabajos: [
-    { year: 2018, empresa: 'MarketerosCOL', salario: 1000, },
-    { year: 2019, empresa: 'MarketerosCOL', salario: 2000, },
-    { year: 2020, empresa: 'MarketerosCOL', salario: 2000, },
-    { year: 2021, empresa: 'MarketerosCOL', salario: 2000, },
-    { year: 2022, empresa: 'MarketerosCOL', salario: 2000, },
-    { year: 2023, empresa: 'MarketerosCOL', salario: 2000, },
+  jobs: [
+    { year: 2018, company: 'MarketerosCOL', salary: 1000, },
+    { year: 2019, company: 'MarketerosCOL', salary: 2000, },
+    { year: 2020, company: 'MarketerosCOL', salary: 2000, },
+    { year: 2021, company: 'MarketerosCOL', salary: 2000, },
+    { year: 2022, company: 'MarketerosCOL', salary: 2000, },
+    { year: 2023, company: 'MarketerosCOL', salary: 2000, },
   ],
 });
 wages.push({
   name: 'Jonatan',
-  trabajos: [
-    { year: 2019, empresa: 'MarketerosCOL', salario: 1000, },
-    { year: 2020, empresa: 'MarketerosCOL', salario: 1000, },
-    { year: 2021, empresa: 'MarketerosCOL', salario: 800, },
-    { year: 2022, empresa: 'MarketerosCOL', salario: 900, },
-    { year: 2023, empresa: 'MarketerosCOL', salario: 1000, },
+  jobs: [
+    { year: 2019, company: 'MarketerosCOL', salary: 1000, },
+    { year: 2020, company: 'MarketerosCOL', salary: 1000, },
+    { year: 2021, company: 'MarketerosCOL', salary: 800, },
+    { year: 2022, company: 'MarketerosCOL', salary: 900, },
+    { year: 2023, company: 'MarketerosCOL', salary: 1000, },
   ],
 });
 wages.push({
   name: 'Armando',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 750, },
-    { year: 2019, empresa: 'Freelance', salario: 750, },
-    { year: 2020, empresa: 'Freelance', salario: 750, },
-    { year: 2021, empresa: 'Freelance', salario: 850, },
-    { year: 2022, empresa: 'Freelance', salario: 850, },
-    { year: 2023, empresa: 'Freelance', salario: 850, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 750, },
+    { year: 2019, company: 'Freelance', salary: 750, },
+    { year: 2020, company: 'Freelance', salary: 750, },
+    { year: 2021, company: 'Freelance', salary: 850, },
+    { year: 2022, company: 'Freelance', salary: 850, },
+    { year: 2023, company: 'Freelance', salary: 850, },
   ],
 });
 wages.push({
   name: 'Dilan',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 500, },
-    { year: 2019, empresa: 'Freelance', salario: 500, },
-    { year: 2020, empresa: 'Freelance', salario: 600, },
-    { year: 2021, empresa: 'Mokepon', salario: 1100, },
-    { year: 2022, empresa: 'Mokepon', salario: 1100, },
-    { year: 2023, empresa: 'Mokepon', salario: 1100, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 500, },
+    { year: 2019, company: 'Freelance', salary: 500, },
+    { year: 2020, company: 'Freelance', salary: 600, },
+    { year: 2021, company: 'Mokepon', salary: 1100, },
+    { year: 2022, company: 'Mokepon', salary: 1100, },
+    { year: 2023, company: 'Mokepon', salary: 1100, },
   ],
 });
 wages.push({
   name: 'Zamir',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 400, },
-    { year: 2019, empresa: 'Freelance', salario: 500, },
-    { year: 2020, empresa: 'Freelance', salario: 500, },
-    { year: 2021, empresa: 'Mokepon', salario: 1100, },
-    { year: 2022, empresa: 'Mokepon', salario: 1100, },
-    { year: 2023, empresa: 'Mokepon', salario: 1200, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 400, },
+    { year: 2019, company: 'Freelance', salary: 500, },
+    { year: 2020, company: 'Freelance', salary: 500, },
+    { year: 2021, company: 'Mokepon', salary: 1100, },
+    { year: 2022, company: 'Mokepon', salary: 1100, },
+    { year: 2023, company: 'Mokepon', salary: 1200, },
   ],
 });
 wages.push({
   name: 'Daniela',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 500, },
-    { year: 2019, empresa: 'Freelance', salario: 500, },
-    { year: 2020, empresa: 'Freelance', salario: 500, },
-    { year: 2021, empresa: 'Freelance', salario: 550, },
-    { year: 2022, empresa: 'Freelance', salario: 550, },
-    { year: 2023, empresa: 'MarketerosCOL', salario: 850, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 500, },
+    { year: 2019, company: 'Freelance', salary: 500, },
+    { year: 2020, company: 'Freelance', salary: 500, },
+    { year: 2021, company: 'Freelance', salary: 550, },
+    { year: 2022, company: 'Freelance', salary: 550, },
+    { year: 2023, company: 'MarketerosCOL', salary: 850, },
   ],
 });
 wages.push({
   name: 'Daniel',
-  trabajos: [
-    { year: 2020, empresa: 'Freelance', salario: 150, },
-    { year: 2021, empresa: 'Freelance', salario: 450, },
-    { year: 2022, empresa: 'Freelance', salario: 550, },
-    { year: 2023, empresa: 'Freelance', salario: 650, },
+  jobs: [
+    { year: 2020, company: 'Freelance', salary: 150, },
+    { year: 2021, company: 'Freelance', salary: 450, },
+    { year: 2022, company: 'Freelance', salary: 550, },
+    { year: 2023, company: 'Freelance', salary: 650, },
   ],
 });
 wages.push({
   name: 'Rigoberto',
-  trabajos: [
-    { year: 2018, empresa: 'MarketerosCOL', salario: 700, },
-    { year: 2019, empresa: 'MarketerosCOL', salario: 700, },
-    { year: 2020, empresa: 'MarketerosCOL', salario: 700, },
-    { year: 2021, empresa: 'MarketerosCOL', salario: 750, },
-    { year: 2022, empresa: 'MarketerosCOL', salario: 750, },
-    { year: 2023, empresa: 'MarketerosCOL', salario: 750, },
+  jobs: [
+    { year: 2018, company: 'MarketerosCOL', salary: 700, },
+    { year: 2019, company: 'MarketerosCOL', salary: 700, },
+    { year: 2020, company: 'MarketerosCOL', salary: 700, },
+    { year: 2021, company: 'MarketerosCOL', salary: 750, },
+    { year: 2022, company: 'MarketerosCOL', salary: 750, },
+    { year: 2023, company: 'MarketerosCOL', salary: 750, },
   ],
 });
 wages.push({
   name: 'Alicia',
-  trabajos: [
-    { year: 2018, empresa: 'Inversionify', salario: 300, },
-    { year: 2019, empresa: 'Inversionify', salario: 1700, },
-    { year: 2020, empresa: 'Inversionify', salario: 2700, },
-    { year: 2021, empresa: 'Inversionify', salario: 3750, },
-    { year: 2022, empresa: 'Freelance', salario: 1550, },
-    { year: 2023, empresa: 'Freelance', salario: 350, },
+  jobs: [
+    { year: 2018, company: 'Inversionify', salary: 300, },
+    { year: 2019, company: 'Inversionify', salary: 1700, },
+    { year: 2020, company: 'Inversionify', salary: 2700, },
+    { year: 2021, company: 'Inversionify', salary: 3750, },
+    { year: 2022, company: 'Freelance', salary: 1550, },
+    { year: 2023, company: 'Freelance', salary: 350, },
   ],
 });
 wages.push({
   name: 'Teodoro',
-  trabajos: [
-    { year: 2018, empresa: 'Freelance', salario: 600, },
-    { year: 2019, empresa: 'Freelance', salario: 700, },
-    { year: 2020, empresa: 'Inversionify', salario: 1700, },
-    { year: 2021, empresa: 'Inversionify', salario: 1750, },
-    { year: 2022, empresa: 'Freelance', salario: 800, },
-    { year: 2023, empresa: 'Freelance', salario: 850, },
+  jobs: [
+    { year: 2018, company: 'Freelance', salary: 600, },
+    { year: 2019, company: 'Freelance', salary: 700, },
+    { year: 2020, company: 'Inversionify', salary: 1700, },
+    { year: 2021, company: 'Inversionify', salary: 1750, },
+    { year: 2022, company: 'Freelance', salary: 800, },
+    { year: 2023, company: 'Freelance', salary: 850, },
   ],
 });
 wages.push({
   name: 'Bruce',
-  trabajos: [
-    { year: 2018, empresa: 'Wayne Enterprises', salario: 4600, },
-    { year: 2019, empresa: 'Wayne Enterprises', salario: 4700, },
-    { year: 2020, empresa: 'Wayne Enterprises', salario: 3700, },
-    { year: 2021, empresa: 'Wayne Enterprises', salario: 4150, },
-    { year: 2022, empresa: 'Wayne Enterprises', salario: 4400, },
-    { year: 2023, empresa: 'Wayne Enterprises', salario: 3850, },
+  jobs: [
+    { year: 2018, company: 'Wayne Enterprises', salary: 4600, },
+    { year: 2019, company: 'Wayne Enterprises', salary: 4700, },
+    { year: 2020, company: 'Wayne Enterprises', salary: 3700, },
+    { year: 2021, company: 'Wayne Enterprises', salary: 4150, },
+    { year: 2022, company: 'Wayne Enterprises', salary: 4400, },
+    { year: 2023, company: 'Wayne Enterprises', salary: 3850, },
   ],
 });
 wages.push({
   name: 'Alfred',
-  trabajos: [
-    { year: 2018, empresa: 'Wayne Enterprises', salario: 2000, },
-    { year: 2019, empresa: 'Wayne Enterprises', salario: 2000, },
-    { year: 2020, empresa: 'Wayne Enterprises', salario: 1500, },
-    { year: 2021, empresa: 'Wayne Enterprises', salario: 1500, },
-    { year: 2022, empresa: 'Wayne Enterprises', salario: 2000, },
-    { year: 2023, empresa: 'Wayne Enterprises', salario: 1500, },
+  jobs: [
+    { year: 2018, company: 'Wayne Enterprises', salary: 2000, },
+    { year: 2019, company: 'Wayne Enterprises', salary: 2000, },
+    { year: 2020, company: 'Wayne Enterprises', salary: 1500, },
+    { year: 2021, company: 'Wayne Enterprises', salary: 1500, },
+    { year: 2022, company: 'Wayne Enterprises', salary: 2000, },
+    { year: 2023, company: 'Wayne Enterprises', salary: 1500, },
   ],
 });
 wages.push({
   name: 'Clark Kent',
-  trabajos: [
-    { year: 2018, empresa: 'Daily Planet', salario: 1000, },
-    { year: 2019, empresa: 'Daily Planet', salario: 1500, },
-    { year: 2020, empresa: 'Daily Planet', salario: 1000, },
-    { year: 2021, empresa: 'Daily Planet', salario: 1500, },
-    { year: 2022, empresa: 'Daily Planet', salario: 2000, },
-    { year: 2023, empresa: 'Daily Planet', salario: 1500, },
+  jobs: [
+    { year: 2018, company: 'Daily Planet', salary: 1000, },
+    { year: 2019, company: 'Daily Planet', salary: 1500, },
+    { year: 2020, company: 'Daily Planet', salary: 1000, },
+    { year: 2021, company: 'Daily Planet', salary: 1500, },
+    { year: 2022, company: 'Daily Planet', salary: 2000, },
+    { year: 2023, company: 'Daily Planet', salary: 1500, },
   ],
 });
 wages.push({
   name: 'Lois Lane',
-  trabajos: [
-    { year: 2018, empresa: 'Daily Planet', salario: 2000, },
-    { year: 2019, empresa: 'Daily Planet', salario: 2500, },
-    { year: 2020, empresa: 'Daily Planet', salario: 2000, },
-    { year: 2021, empresa: 'Daily Planet', salario: 2500, },
-    { year: 2022, empresa: 'Daily Planet', salario: 2500, },
-    { year: 2023, empresa: 'Daily Planet', salario: 2500, },
+  jobs: [
+    { year: 2018, company: 'Daily Planet', salary: 2000, },
+    { year: 2019, company: 'Daily Planet', salary: 2500, },
+    { year: 2020, company: 'Daily Planet', salary: 2000, },
+    { year: 2021, company: 'Daily Planet', salary: 2500, },
+    { year: 2022, company: 'Daily Planet', salary: 2500, },
+    { year: 2023, company: 'Daily Planet', salary: 2500, },
   ],
 });
 wages.push({
   name: 'Jimmy Olsen',
-  trabajos: [
-    { year: 2018, empresa: 'Daily Planet', salario: 1500, },
-    { year: 2019, empresa: 'Daily Planet', salario: 2000, },
-    { year: 2020, empresa: 'Daily Planet', salario: 2000, },
-    { year: 2021, empresa: 'Daily Planet', salario: 2500, },
-    { year: 2022, empresa: 'Daily Planet', salario: 2500, },
-    { year: 2023, empresa: 'Daily Planet', salario: 1500, },
+  jobs: [
+    { year: 2018, company: 'Daily Planet', salary: 1500, },
+    { year: 2019, company: 'Daily Planet', salary: 2000, },
+    { year: 2020, company: 'Daily Planet', salary: 2000, },
+    { year: 2021, company: 'Daily Planet', salary: 2500, },
+    { year: 2022, company: 'Daily Planet', salary: 2500, },
+    { year: 2023, company: 'Daily Planet', salary: 1500, },
   ],
 });
 wages.push({
   name: 'Perry White',
-  trabajos: [
-    { year: 2018, empresa: 'Daily Planet', salario: 3500, },
-    { year: 2019, empresa: 'Daily Planet', salario: 3700, },
-    { year: 2020, empresa: 'Daily Planet', salario: 3800, },
-    { year: 2021, empresa: 'Daily Planet', salario: 4000, },
-    { year: 2022, empresa: 'Daily Planet', salario: 4050, },
-    { year: 2023, empresa: 'Daily Planet', salario: 4050, },
+  jobs: [
+    { year: 2018, company: 'Daily Planet', salary: 3500, },
+    { year: 2019, company: 'Daily Planet', salary: 3700, },
+    { year: 2020, company: 'Daily Planet', salary: 3800, },
+    { year: 2021, company: 'Daily Planet', salary: 4000, },
+    { year: 2022, company: 'Daily Planet', salary: 4050, },
+    { year: 2023, company: 'Daily Planet', salary: 4050, },
   ],
 });
 wages.push({
   name: 'Lex Luthor',
-  trabajos: [
-    { year: 2018, empresa: 'LexCorp', salario: 5000, },
-    { year: 2019, empresa: 'LexCorp', salario: 5300, },
-    { year: 2020, empresa: 'LexCorp', salario: 4000, },
-    { year: 2021, empresa: 'LexCorp', salario: 3000, },
-    { year: 2022, empresa: 'LexCorp', salario: 3500, },
-    { year: 2023, empresa: 'LexCorp', salario: 3050, },
+  jobs: [
+    { year: 2018, company: 'LexCorp', salary: 5000, },
+    { year: 2019, company: 'LexCorp', salary: 5300, },
+    { year: 2020, company: 'LexCorp', salary: 4000, },
+    { year: 2021, company: 'LexCorp', salary: 3000, },
+    { year: 2022, company: 'LexCorp', salary: 3500, },
+    { year: 2023, company: 'LexCorp', salary: 3050, },
   ],
 });
