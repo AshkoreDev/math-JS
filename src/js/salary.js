@@ -46,30 +46,25 @@ function projectionPerPerson(person) {
 
 
 // Análisis empresarial
-function registerCompanies(wages) {
 
-	const companies = {};
+const companies = {};
 
-	for(person of wages) {
+for (person of wages) {
+  for (salary of person.jobs) {
+    if (!companies[salary.company]) {
+      companies[salary.company] = {};
+    }
 
-		for(jobs of person.jobs) {
+    if (!companies[salary.company][salary.year]) {
+      companies[salary.company][salary.year] = [];
+    }
 
-			if (!companies[jobs.company]) {
-				
-				companies[jobs.company] = {};
-			}
-
-			if (companies[jobs.company][jobs.year]) {
-				
-				companies[jobs.company][jobs.year] = [];
-			}
-
-			companies[jobs.company][jobs.year].push(jobs.salary);
-		}
-	}
-
-	return companies;
+    companies[salary.company][salary.year].push(salary.salary);
+  }
 }
+console.log({companies});
 
-registerCompanies(wages);
+
+
+
 console.log(wages);
