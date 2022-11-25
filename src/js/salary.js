@@ -81,4 +81,20 @@ function companiesYearMedian(name, year) {
 	}
 }
 
+
+function projectionPerCompany(name) {
+
+	if (!companies[name]) {
+	
+		console.warn('La empresa no existe.');
+
+	} else {
+
+		const companyYears = Object.keys(companies[name]);
+		const medianYearsList = companyYears.map(year => companiesYearMedian(name, year));
+		
+		return medianYearsList;
+	}
+}
+
 console.log(wages);
