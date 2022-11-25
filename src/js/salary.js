@@ -65,6 +65,20 @@ for (person of wages) {
 console.log({companies});
 
 
+function companiesYearMedian(name, year) {
 
+	if (!companies[name]) {
+		
+		console.warn('La empresa no existe.');
+
+	} else if (!companies[name][year]) {
+
+		console.warn('La empresa no dio salarios ese año.');
+
+	} else {
+
+		return math.calculateMedian(companies[name][year]);
+	}
+}
 
 console.log(wages);
