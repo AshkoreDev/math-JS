@@ -1,4 +1,3 @@
-console.log(math);
 console.log(wages);
 
 // Análisis personal
@@ -63,7 +62,6 @@ for (person of wages) {
 }
 console.log({companies});
 
-
 function companiesYearMedian(name, year) {
 
 	if (!companies[name]) {
@@ -79,7 +77,6 @@ function companiesYearMedian(name, year) {
 		return math.calculateMedian(companies[name][year]);
 	}
 }
-
 
 function projectionPerCompany(name) {
 
@@ -112,4 +109,15 @@ function projectionPerCompany(name) {
 		
 		return newMedianWages;
 	}
+}
+
+
+// Análisis general
+function generalMedian() {
+
+	const medianPerName = wages.map(person => medianPerPerson(person.name));
+	const median = math.calculateMedian(medianPerName);
+	
+	console.log(medianPerName);
+	console.log(median);
 }

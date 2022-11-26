@@ -21,7 +21,7 @@ math.calculateMedian = function calculateMedian(list) {
 	const listIsEven = math.isEven(list);
 
 	orderedList = list.sort((a,b) => a - b);
-	console.log(orderedList);
+	// console.log(orderedList);
 
 	if (listIsEven) {
 		
