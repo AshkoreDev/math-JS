@@ -130,9 +130,7 @@ function medianTopTen() {
 	const limit = medianOrderedList.length - amount;
 
 	const topTen = medianOrderedList.slice(limit, medianOrderedList.length);
-
-	console.log(medianOrderedList);
-	console.log(amount);
-	console.log(limit);
-	console.log(topTen);
+	const medianTopTen = math.calculateMedian(topTen);
+	
+	return medianTopTen;
 }
