@@ -117,7 +117,22 @@ function generalMedian() {
 
 	const medianPerName = wages.map(person => medianPerPerson(person.name));
 	const median = math.calculateMedian(medianPerName);
-	
-	console.log(medianPerName);
-	console.log(median);
+
+	return median;
+}
+
+function medianTopTen() {
+
+	const medianPerName = wages.map(person => medianPerPerson(person.name));
+	const medianOrderedList = medianPerName.sort((a,b) => a - b);
+
+	const amount = medianPerName.length / 10;
+	const limit = medianOrderedList.length - amount;
+
+	const topTen = medianOrderedList.slice(limit, medianOrderedList.length);
+
+	console.log(medianOrderedList);
+	console.log(amount);
+	console.log(limit);
+	console.log(topTen);
 }
