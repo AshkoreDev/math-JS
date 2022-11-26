@@ -46,7 +46,6 @@ function projectionPerPerson(person) {
 
 
 // Análisis empresarial
-
 const companies = {};
 
 for (person of wages) {
@@ -106,7 +105,6 @@ function projectionPerCompany(name) {
 		}
 
 		const medianIncrease = math.calculateMedian(increaseList);
-		console.log(medianIncrease);
 
 		const lastMedianWages = medianYearsList[medianYearsList.length - 1];
 		const lastIncrease = lastMedianWages * medianIncrease;
@@ -115,5 +113,3 @@ function projectionPerCompany(name) {
 		return newMedianWages;
 	}
 }
-
-console.log(wages);
