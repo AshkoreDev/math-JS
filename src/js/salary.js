@@ -93,7 +93,26 @@ function projectionPerCompany(name) {
 		const companyYears = Object.keys(companies[name]);
 		const medianYearsList = companyYears.map(year => companiesYearMedian(name, year));
 		
-		return medianYearsList;
+		let increaseList = [];
+
+		for (let i = 1; i < medianYearsList.length; i++) {
+			
+			const currentSalary = medianYearsList[i];
+			const pastSalary = medianYearsList[i - 1];
+			const increase = currentSalary - pastSalary;
+			const percent = (increase / pastSalary).toFixed(2);
+			
+			increaseList.push(percent);
+		}
+
+		const medianIncrease = math.calculateMedian(increaseList);
+		console.log(medianIncrease);
+
+		const lastMedianWages = medianYearsList[medianYearsList.length - 1];
+		const lastIncrease = lastMedianWages * medianIncrease;
+		const newMedianWages = lastMedianWages + lastIncrease;
+		
+		return newMedianWages;
 	}
 }
 
